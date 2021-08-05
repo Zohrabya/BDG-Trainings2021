@@ -1,0 +1,5 @@
+print ("Exercise N 7")
+print ("There are 2.2 pounds in a kilogram.")
+print ("Enter a number of kilogram:")
+x=int (input())
+print (x,"kilogram is", x*2.2 ,"pounds")
