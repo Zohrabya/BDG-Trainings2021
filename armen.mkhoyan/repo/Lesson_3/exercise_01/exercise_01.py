@@ -2,16 +2,16 @@
 
 #a.	Using one statement with one print function
 
-print("***********","\n***********","\n***********","\n***********",)
+print(11*"*",3*("\n"+11*"*"))
 
-print("----------")
+##It was printed for design purposes to separate: print("----------")
 
 #b.	Using four statement with one print function.
 x = "***********"
 y = "\n***********"
 print(x,3*y)
 
-print("----------")
+##It was printed for design purposes to separate: print("----------")
 
 #c.	Using four statement with four print function.
 a = "***********"
