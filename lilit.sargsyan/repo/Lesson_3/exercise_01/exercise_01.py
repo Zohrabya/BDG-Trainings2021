@@ -1,19 +1,19 @@
 a)
-print("* * * * * * * * * * * *","\n* * * * * * * * * * * *","\n* * * * * * * * * * * * ","\n* * * * * * * * * * * *")
-
+line_1_bdg='*'*12+'\n'+'*'*12+'\n'+'*'*12+'\n'+'*'*12
+print(line_1_bdg)
 b)
-a=" * "*12
-b="\n* * * * * * * * * * * *"
-c="\n* * * * * * * * * * * *"
-d="\n* * * * * * * * * * * *"
-print(a,b,c,d)
+line_1_lesson_3="*"*12 +'\n'
+line_2_lesson_3="*"*12 + "\n"
+line_3_lesson_3=line_1_lesson_3
+line_4_lesson_3=line_1_lesson_3
+print(line_1_lesson_3,line_2_lesson_3,line_3_lesson_3,line_4_lesson_3)
 
 c)
-a='*'*12
-b='*'*12
-c='*'*12
-d='*'*12
-print(a)
-print(b)
-print(c)
-print(d)
+line_1_lesson_3='*'*12
+line_2_lesson_3='*'*12
+line_3_lesson_3='*'*12
+line_4_lesson_3='*'*12
+print(line_1_lesson_3)
+print(line_2_lesson_3)
+print(line_3_lesson_3)
+print(line_4_lesson_3)
