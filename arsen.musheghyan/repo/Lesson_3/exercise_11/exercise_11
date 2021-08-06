@@ -1,0 +1,4 @@
+a= int(input("Please, enter length of a farmer’s field in feet: "))
+b= int(input("Please, enter width of a farmer’s field in feet: "))
+c = a*b
+print (c/43560)
