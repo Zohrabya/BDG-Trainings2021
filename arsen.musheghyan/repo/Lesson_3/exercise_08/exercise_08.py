@@ -5,4 +5,7 @@ print ("Please, Enter the number N 2:")
 b=int (input())
 print ("Please, Enter the number N 3:")
 c=int (input())
-print (a+b+c)
+total = a+b+c
+average = total/3
+print ("Total = ", total)
+print ("Average =", average)
