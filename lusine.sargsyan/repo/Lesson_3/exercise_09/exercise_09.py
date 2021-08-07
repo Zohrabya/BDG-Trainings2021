@@ -1,13 +1,13 @@
 #! /usr/bin/env python3
 
 
-a=input("enter the price of the meal:")
-b=input("enter the desired tip in percents:")
+price=input("enter the price of the meal:")
+tip=input("enter the desired tip in percents:")
 
-a=int(a)
-b=int(b)
+price=int(price)
+tip=int(tip)
 
-c=a+a*b/100
+total=price+price*tip/100
 
 
-print("tip:", b, "%", "\ntotal price:", c, "USD")
+print("tip:", tip, "%", "\ntotal price:", total, "USD")
