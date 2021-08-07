@@ -1,5 +1,3 @@
 #!/usr/bin/evn python3
-entered_kgs = input("Enter how much kilograms should convert:")
-num_in_float = float(entered_kgs)
-count = 2.2 * num_in_float
-print("There are", count, "pounds in", num_in_float, "kg.", sep=" ")
+entered_num = int(input("Enter a number: "))
+print(entered_num, 2 * entered_num, 3 * entered_num, 4 * entered_num, 5 * entered_num, sep="---")
