@@ -1,18 +1,17 @@
-a.
- a=('*'*12)+'\n'+"*"+(" "*10)+'*\n'+'*'+(' '*10)+'*\n'+('*'*12)
- print(a)
- b.
- a='*'*12+'\n'
- b='*'+' '*10+'*\n'
- c='*'+' '*10+'*\n'
- l='*'*12
- print(a,b,c,l)
- c.
- a='*'*12
- b='*'+' '*10+'*'
- c='*'+' '*10+'*'
- d='*'*12
- print(a)
- print(b)
- print(c)
- print(d)
+
+ print(('*'*12) + '\n' + "*" + (" "*10) + '*\n' + '*' + (' '*10) + '*\n' + ('*'*12))
+ 
+ lesson_03_line_1= '*'*12 + '\n'
+ lesson_03_line_2= '*' + ' '*10 + '*\n'
+ lesson_03_line_3= '*' + ' '*10 + '*\n'
+ lesson_03_line_4= '*'*12
+ print(lesson_03_line_1,lesson_03_line_2,lesson_03_line_3,lesson_03_line_4)
+ 
+ lesson_03_line_1= '*'*12
+ lesson_03_line_2= '*' + ' '*10 + '*'
+ lesson_03_line_3= '*' + ' '*10 + '*'
+ lesson_03_line_4= '*'*12
+ print(lesson_03_line_1)
+ print(lesson_03_line_2)
+ print(lesson_03_line_3)
+ print(lesson_03_line_4)
