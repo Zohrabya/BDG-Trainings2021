@@ -1,0 +1,5 @@
+cost = int(input("Enter the cost of your meal: "))
+tax = (round(5.2 * cost  / 100,2))
+tip = (round(18 * cost / 100,2))
+total = (round(tax + tip + cost,2))
+print("tax amount is: ",tax,"tip amount is: ",tip,"grand total is: ",total)
