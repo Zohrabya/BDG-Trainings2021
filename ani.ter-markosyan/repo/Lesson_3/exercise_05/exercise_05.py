@@ -1,2 +1,2 @@
-number = int (input("Enter a number: "))
-print ("The squre of", number,"is", number**2)
+number = int(input("Enter a number: "))
+print("The squre of",number,"is",number**2)
