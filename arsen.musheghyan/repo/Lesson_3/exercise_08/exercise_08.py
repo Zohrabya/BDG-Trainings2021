@@ -1,11 +1,7 @@
-print ("Exercise N 8")
-print ("Please, Enter the number N 1:")
-a=int (input())
-print ("Please, Enter the number N 2:")
-b=int (input())
-print ("Please, Enter the number N 3:")
-c=int (input())
-total = a+b+c
+number1 = int(input("Please, Enter the number N 1: "))
+number2 = int(input("Please, Enter the number N 2: "))
+number3 = int(input("Please, Enter the number N 3: "))
+total = number1 + number2 +number3
 average = total/3
-print ("Total = ", total)
-print ("Average =", average)
+print ("Total: = ", total)
+print ("Average: =", average)
