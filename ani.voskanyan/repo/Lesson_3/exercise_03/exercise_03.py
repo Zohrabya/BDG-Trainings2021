@@ -1,6 +1,5 @@
 #a.Using one statement with one print function
-symbols_a = "*\n" + "*" * 2 + "\n" + "*" * 3 + "\n" + "*" * 4
-print(symbols_a)
+print("*\n" + "*" * 2 + "\n" + "*" * 3 + "\n" + "*" * 4)
 
 #b.Using four statement with one print function
 line_b_1 = "*\n" 
