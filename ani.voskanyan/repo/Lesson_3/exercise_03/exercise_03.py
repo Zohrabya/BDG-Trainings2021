@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 #a.Using one statement with one print function
 print("*\n" + "*" * 2 + "\n" + "*" * 3 + "\n" + "*" * 4)
 
