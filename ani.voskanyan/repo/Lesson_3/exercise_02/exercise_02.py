@@ -1,6 +1,5 @@
 #a.Using one statement with one print function
-line_a_1 = ("*" * 19) + "\n" + "*" + (" " * 17) + "*\n" + "*" + (" " * 17) + "*\n" + ("*" * 19)
-print(line_a_1)
+print(("*" * 19) + "\n" + "*" + (" " * 17) + "*\n" + "*" + (" " * 17) + "*\n" + ("*" * 19))
 
 #b.Using four statement with one print function
 line_b_1 = "*" * 19 +"\n"
