@@ -1,6 +1,5 @@
-#a. Using one statement with one print function
-line_a = "*" * 19 + "\n" 
-print(line_a * 4)
+#a. Using one statement with one print function 
+print(("*" * 19 + "\n") * 4)
 
 #b. Using four statement with one print function
 line_b_1 = "*" * 19
