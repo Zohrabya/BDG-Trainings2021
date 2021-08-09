@@ -1,9 +1,9 @@
 first = int(input("Insert first number \n"))
 second = int(input("Insert second number \n"))
 if first > second:
-    print("{0} is larger {1}".format(first, second))
+    print("{first, is larger ")
 elif first < second:
-    print("{0} is larger {1}".format(second, first))
+    print("second,  is larger")
 else:
     print("This numbers are equal")
     
