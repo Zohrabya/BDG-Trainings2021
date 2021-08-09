@@ -1,4 +1,2 @@
-print ("Exercise N 5")
-print ("Enter a number:") 
-c=int (input())
-print ("The square of", c ,"is",c*c,".")
+number = int(input("Enter a number: "))
+print ("The square of",  number ,"is", number ** 2, ". ")
