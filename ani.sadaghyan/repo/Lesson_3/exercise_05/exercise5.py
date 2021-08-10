@@ -1,2 +1,2 @@
-number = int(input("Enter a number: "));
-print("The square of {} is {}".format(number, number * number));
+number = int(input("Enter a number: "))
+print("The squre of",number,"is",number**2)
