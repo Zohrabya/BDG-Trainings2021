@@ -2,11 +2,4 @@
 
 waight = int(input("Enter your waight in kg: "))
 
-
 print("Waight in pound is: ", 2.2*waight)
-
-
-
-
-
-
