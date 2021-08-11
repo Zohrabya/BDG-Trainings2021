@@ -1,0 +1,6 @@
+number = int(input("Enter a four-digit number: "))
+digit_1 = int(number / 1000)
+digit_2 = int(number % 1000 / 100)
+digit_3 = int(number % 1000 % 100 / 10)
+digit_4 = int(number % 1000 % 100 % 10)
+print(digit_1, "+", digit_2, "+", digit_3, "+", digit_4, "=", digit_1 + digit_2 + digit_3 + digit_4)
