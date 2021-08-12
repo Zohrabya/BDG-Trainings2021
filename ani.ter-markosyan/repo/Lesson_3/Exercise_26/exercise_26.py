@@ -1,5 +1,4 @@
-name = str(input("Enter a name: "))
-surname = str(input("Enter a surname: "))
-name_passport = name.capitalize()
-surname_passport = surname.capitalize() 
-print(name_passport, surname_passport)
+#!usr/bin/evn python3
+name = input("Enter a name: ")
+surname = input("Enter a surname: ")
+print(name.capitalize(), surname.capitalize())
