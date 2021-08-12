@@ -1,5 +1,3 @@
 # 6
-text1 = int(input("Enter a number"))
-text = "{}---{}---{}---{}---{}"
-text = text.format(text1,text1*2,text1*3,text1*4,text1*5)
-print(text)
+first_num = int(input("Enter a number: "))
+print(first_num, "---", first_num*2, "---", first_num*3, "---", first_num*4, "---", first_num*5)
