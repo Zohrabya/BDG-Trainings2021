@@ -1,3 +1,5 @@
 radius = int(input("Enter a radius of a circle: "))
-pi = float(3.14159)
-print("circle's diameter is", 2 * radius,"circle's circumference is",2 * pi * radius,"circle's area is",pi * radius * radius)
+PI = 3.14159
+print("Circle's diameter is", 2 * radius)
+print("Circle's circumference is", round(2 * PI * radius, 2))
+print("Circle's area is", round(PI * radius * radius, 2))
