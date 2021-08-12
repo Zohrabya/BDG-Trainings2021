@@ -1,16 +1,23 @@
 #!usr/bin/evn python3
 
-numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-squared_numbers = [number ** 2 for number in numbers]
-cubed_numbers = [number ** 3 for number in numbers]
 print("integer" + "\t", "square" + "\t", "cube")
-print(numbers[0], "\t", squared_numbers[0], "\t", cubed_numbers[0])
-print(numbers[1], "\t", squared_numbers[1], "\t", cubed_numbers[1])
-print(numbers[2], "\t", squared_numbers[2], "\t", cubed_numbers[2])
-print(numbers[3], "\t", squared_numbers[3], "\t", cubed_numbers[3])
-print(numbers[4], "\t", squared_numbers[4], "\t", cubed_numbers[4])
-print(numbers[5], "\t", squared_numbers[5], "\t", cubed_numbers[5])
-print(numbers[6], "\t", squared_numbers[6], "\t", cubed_numbers[6])
-print(numbers[7], "\t", squared_numbers[7], "\t", cubed_numbers[7])
-print(numbers[8], "\t", squared_numbers[8], "\t", cubed_numbers[8])
-print(numbers[9], "\t", squared_numbers[9], "\t", cubed_numbers[9])
+number1 = 0
+print(number1, "\t", number1 ** 2, "\t", number1 ** 3)
+number2 = 1
+print(number2, "\t", number2 ** 2, "\t", number2 ** 3)
+number3 = 2
+print(number3, "\t", number3 ** 2, "\t", number3 ** 3)
+number4 = 3
+print(number4, "\t", number4 ** 2, "\t", number4 ** 3)
+number5 = 4
+print(number5, "\t", number5 ** 2, "\t", number5 ** 3)
+number6 = 5
+print(number6, "\t", number6 ** 2, "\t", number6 ** 3)
+number7 = 6
+print(number7, "\t", number7 ** 2, "\t", number7 ** 3)
+number8 = 7
+print(number8, "\t", number8 ** 2, "\t", number8 ** 3)
+number9 = 8
+print(number9, "\t", number9 ** 2, "\t", number9 ** 3)
+number10 = 9
+print(number10, "\t", number10 ** 2, "\t", number10 ** 3)
