@@ -1,6 +1,4 @@
 # 5
-text1 = int(input("Enter a number"))
-textm = text1**2
-text2 = "The square of {} is {}"
-text2 = text2.format(text1,textm)
-print(text2)
+enter_num = int(input("Enter a number: "))
+output_num = enter_num**2
+print("The square of"+ " "+ str(enter_num)+ " is " +str(output_num))
