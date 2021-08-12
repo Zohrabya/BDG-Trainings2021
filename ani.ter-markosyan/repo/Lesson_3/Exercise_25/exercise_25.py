@@ -1,6 +1,4 @@
+#!usr/bin/evn python3
 number = int(input("Enter a four-digit number: "))
-digit_1 = int(number / 1000)
-digit_2 = int(number % 1000 / 100)
-digit_3 = int(number % 1000 % 100 / 10)
-digit_4 = int(number % 1000 % 100 % 10)
-print(digit_1, "+", digit_2, "+", digit_3, "+", digit_4, "=", digit_1 + digit_2 + digit_3 + digit_4)
+digit = str(number)
+print(digit[0], "+", digit[1], "+", digit[2], "+", digit[3], "=", int(digit[0]) + int(digit[1]) + int(digit[2]) + int(digit[3]))
