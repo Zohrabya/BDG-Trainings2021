@@ -1,7 +1,4 @@
+#!usr/bin/evn python3
 number = int(input("Enter a five-digit number: "))
-digit_1 = int(number / 10000)
-digit_2 = int(number % 10000 / 1000)
-digit_3 = int(number % 10000 % 1000 / 100)
-digit_4 = int(number % 10000 % 1000 % 100 / 10)
-digit_5 = int(number % 10000 % 1000 % 100 % 10 / 1)
-print(digit_1, "   ", digit_2, "   ", digit_3, "   ", digit_4, "   ", digit_5)
+digits = str(number)
+print(digits[0], digits[1], digits[2], digits[3], digits[4], sep = "   ")
