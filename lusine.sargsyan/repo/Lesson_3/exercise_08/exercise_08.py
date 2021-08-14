@@ -1,22 +1,17 @@
 #!/usr/bin /env python3
 
 
-a=input("enter a number1:")
-b=input("enter a number2:")
-c=input("enter a number3:")
-
-a=int(a)
-b=int(b)
-c=int(c)
-
-lst=[a,b,c]
+number1 = int(input("enter a number1: "))
+number2 = input("enter a number2: ")
+number3 = input("enter a number3: ")
 
 
-total=sum(lst)
-qnt=len(lst)
-average=total/qnt
+total = int(number1) + int(number2) + int(number3) 
+average = total/3
 
-print(average)
+print(total, average)
+
+
 
 
 
