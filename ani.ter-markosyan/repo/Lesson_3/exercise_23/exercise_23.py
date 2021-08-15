@@ -1,4 +1,7 @@
 #!usr/bin/evn python3
-number = int(input("Enter a five-digit number: "))
-digits = str(number)
-print(digits[0], digits[1], digits[2], digits[3], digits[4], sep = "   ")
+
+number = str(input("Enter a five-digit number: "))
+if len(number) == 5:
+    print(number[0], number[1], number[2], number[3], number[4], sep = " "*3)
+else:
+    print("Enter a five-digit number!")
