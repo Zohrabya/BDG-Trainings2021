@@ -1,8 +1,9 @@
 #!usr/bin/evn python3
-#number1, number2, number3 = map(int,input("Input three different numbers: ").split())
 
-number1, number2, number3 = input("Input three different integers: ").split()
-number1, number2, number3 = [int(number1), int(number2), int(number3)]
+number1 = int(input("Input the first number: "))
+number2 = int(input("Input second number: "))
+number3 = int(input("input third number: "))
+print("Input three different integers:", number1, number2, number3)
 sum = number1 + number2 + number3
 average = round(number1 + number2 + number3 / 3, 2)
 product = number1 * number2 * number3
