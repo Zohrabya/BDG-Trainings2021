@@ -4,14 +4,7 @@
 set_box = 5
 for set_box in range(1):
 
-    print('*'*15)
-
-#2
-print("*", "*", sep= ((" ")*13))
-print("*", "*", sep= ((" ")*13))
-
-#3
-set_box = 5
-for set_box in range(1):
-
-    print('*'*15)
+    print('*'*1)
+    print('*'*2)
+    print('*'*3)
+    print('*'*4)
