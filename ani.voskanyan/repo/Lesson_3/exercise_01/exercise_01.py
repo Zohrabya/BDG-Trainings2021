@@ -1,22 +1,16 @@
+#!/usr/bin/env python3
+
 #a. Using one statement with one print function 
 print(("*" * 19 + "\n") * 4)
 
 #b. Using four statement with one print function
-line_b_1 = "*" * 19
-line_b_2 = "*" * 19
-line_b_3 = "*" * 19
-line_b_4 = "*" * 19
-print(f'''{line_b_1} 
-{line_b_2}
-{line_b_3}
-{line_b_4}''')
+print(f'''{"*" * 19} 
+{"*" * 19}
+{"*" * 19}
+{"*" * 19}''')
 
 #c. Using four statement with four print function
-line_c_1 = "*" * 19
-line_c_2 = "*" * 19
-line_c_3 = "*" * 19
-line_c_4 = "*" * 19
-print(line_c_1)
-print(line_c_2)
-print(line_c_3)
-print(line_c_4)
+print("*" * 19)
+print("*" * 19)
+print("*" * 19)
+print("*" * 19)
