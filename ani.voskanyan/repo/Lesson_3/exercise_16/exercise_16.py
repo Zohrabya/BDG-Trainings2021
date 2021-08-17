@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 integer_1 = int(input("Enter the first integer: "))
 integer_2 = int(input("Enter the second integer: "))
 
