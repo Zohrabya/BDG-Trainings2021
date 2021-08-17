@@ -1,5 +1,4 @@
 length = int(input("Enter the length (in feet): "))
 width = int(input("Enter the width (in feet): "))
 ACRE = 43560
-area = (length + width) / ACRE
-print("The area of the field is", "area", "acres: " )
+print("The area of a field is", round(width * lenght / ACRE, 2), "acres: ")
