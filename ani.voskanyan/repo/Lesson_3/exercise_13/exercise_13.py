@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 meal_cost = float(input("Please, enter the cost of the meal: "))
 TAX_PERCENTAGE = 0.20
 cost_tax = meal_cost * TAX_PERCENTAGE
