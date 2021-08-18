@@ -1,2 +1,2 @@
-weight=int(input("value in kg"))
-print("value in pound {}".format(weight*2.2))
+weight=int(input("value in kg: "))
+print("Your weight in pounds is", round(weight * 2.2,2), end = ".")
