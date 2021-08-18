@@ -1,0 +1,4 @@
+For ax^3+7 algebraic equation correct Python  statements are:
+a. y=a*x*x*x+7
+d. y=(a*x)*x*x+7
+e. y=a*(x*x*x)+7
