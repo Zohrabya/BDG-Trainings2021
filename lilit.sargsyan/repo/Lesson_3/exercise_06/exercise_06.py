@@ -1,2 +1,2 @@
-num_01=8
-print(num_01, '---', num_01*2, "---", num_01*3,'---', num_01*4, '---', num_01*5, sep="")
+numeric_ex_6= int(input('Enter a number: '))
+print(numeric_ex_6, '---', numeric_ex_6 * 2, "---", numeric_ex_6 * 3,'---', numeric_ex_6 * 4, '---', numeric_ex_6, sep= '')
