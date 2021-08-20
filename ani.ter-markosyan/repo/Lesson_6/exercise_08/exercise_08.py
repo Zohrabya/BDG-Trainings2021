@@ -1,4 +1,5 @@
 #!usr/bin/evn python3
+
 print ("Original_prices", "\t", "Dicount", "\t","Prices_after_discount")
 discount = 0.6
 list_1 = [4.95, 9.95, 14.95, 19.95, 24.95]
