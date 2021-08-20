@@ -9,4 +9,3 @@ for i in range(0, height):
         print("*".center(height * 2, " "))
     else: 
         print(("*".ljust(i, " ") + " " + "*".rjust(i, " ")).center(height * 2, " "))
- 
