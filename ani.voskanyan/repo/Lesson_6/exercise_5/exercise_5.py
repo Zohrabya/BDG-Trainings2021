@@ -1,6 +1,6 @@
 #!usr/bin/env python3
 
-height = int(input("Enter the height of the diamond: "))
+height = int(input("Enter the height of a diamond: "))
 
 for i in range(0, int(height/2)):
         print(("*" + i * "*" * 2).center(height, " "))
