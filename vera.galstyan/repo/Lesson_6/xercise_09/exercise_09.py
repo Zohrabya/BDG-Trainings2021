@@ -1,7 +1,9 @@
 #!usr\bin\env python 3
 
-degree = ["Celsius"]
-for x in degree:
-  print(x)
-  if x == "100":
-    break
+#1
+set_1 = ["Enter the x part of the coordinate: 0"]
+print(set_1)
+
+#2 
+set_2 = ["Enter the y part of the coordinate: 0"]
+print(set_2)
