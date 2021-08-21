@@ -1,0 +1,2 @@
+cost = int(input("Enter the cost of the meal: "))
+print("Your bill's tax amount is", int(round((cost * 10) / 100,2)), "Your bill's tip amount is:", int(round((cost *18) / 100,2)), "Your total bill amount is:", int(round(cost + (cost * 28) / 100,2 )))
