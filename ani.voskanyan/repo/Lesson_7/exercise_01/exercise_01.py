@@ -1,15 +1,15 @@
 #!usr\bin\env python 3
 
 triangle_sides = []
-done = True 
+fill = True 
 
-while done:
+while fill:
     try:
         if len(triangle_sides) < 2:
             side = float(input("Enter the first side of a right triangle: "))
             triangle_sides.append(side)
         if len(triangle_sides) == 2:
-            done = False
+            fill = False
     except ValueError:
         print("You can enter only numbers. Please try again")
             
