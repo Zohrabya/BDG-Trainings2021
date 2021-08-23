@@ -1,9 +1,15 @@
-number = int(input("Enter a number (enter '0' to calculate the average): "))
-numberslist = []
+print("Input some integers to calculate their sum and average. Input 0 to exit.")
+
+count = 0
+sum = 0.0
+number = 1
 
 while number != 0:
-    numberslist.append(number)
-    number = int(input("Enter another number"))
+	number = int(input(""))
+	sum = sum + number
+	count += 1
+
+if count == 0:
+	print("Input some numbers")
 else:
-    numbers_average = sum(numberslist) / len(numberslist)
-    print(f'{numbers_average:.2f}')
+	print("Average and Sum of the above numbers are: ", sum / (count-1), sum)
