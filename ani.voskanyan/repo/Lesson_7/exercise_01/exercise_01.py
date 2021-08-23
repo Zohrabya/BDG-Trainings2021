@@ -1,10 +1,22 @@
 #!usr\bin\env python 3
 
-side_1 = float(input("Enter the first side of a right triangle: "))
-side_2 = float(input("Enter the second side of a right triangle: "))
+triangle_sides = []
+done = True 
 
-def calculate_hypotenuse(a, b):
+while done:
+    try:
+        if len(triangle_sides) < 2:
+            side = float(input("Enter the first side of a right triangle: "))
+            triangle_sides.append(side)
+        if len(triangle_sides) == 2:
+            done = False
+    except ValueError:
+        print("You can enter only numbers. Please try again")
+            
+            
+def calculate_hypotenuse(a, b):    
     c = (a ** 2 + b ** 2) ** (1 / 2)
     return c
 
-print(f'The hypotenuse of the triangle is {calculate_hypotenuse(side_1, side_2):.2f}')
+
+print(f'The hypotenuse of the triangle is {calculate_hypotenuse(triangle_sides[0], triangle_sides[1]):.2f}')
