@@ -4,7 +4,7 @@
 print("*\n" + "*" * 2 + "\n" + "*" * 3 + "\n" + "*" * 4)
 
 #b.Using four statement with one print function
-print(" *\n", "*" * 2 + "\n" , "*" * 3 + "\n","*" * 4)
+print(" *\n", "*" * 2 + "\n" , "*" * 3 + "\n", "*" * 4)
 
 #c.Using four statement with four print function
 print("*")
