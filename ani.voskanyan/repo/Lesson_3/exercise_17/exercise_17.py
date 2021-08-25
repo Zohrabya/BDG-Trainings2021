@@ -24,7 +24,7 @@ else:
 
 print(f"""Input three different integers: {integer_1} {integer_2} {integer_3}
 Sum is {integers_sum}
-Average is {integers_average}
+Average is {integers_average:.2f}
 Product is {integers_product}
 Smallest is {smallest_integer}
 Largest is {largest_integer}""")
