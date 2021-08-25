@@ -1,6 +1,6 @@
 #!/usr/bin/evn python3
 
-integer_1 = int(input("Please enter the first integer:"))
+integer_1 = int(input("Please enter the first integer: "))
 integer_2 = int(input("Please enter the second integer: "))
 
 if integer_1 % integer_2 == 0:
