@@ -4,10 +4,7 @@
 print(("*" * 19 + "\n") * 4)
 
 #b. Using four statement with one print function
-print(f'''{"*" * 19} 
-{"*" * 19}
-{"*" * 19}
-{"*" * 19}''')
+print(("*" * 19 + '\n') + ("*" * 19 + '\n')  + ("*" * 19 + '\n') + ("*" * 19 + '\n'))
 
 #c. Using four statement with four print function
 print("*" * 19)
