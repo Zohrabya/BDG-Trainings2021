@@ -1,15 +1,9 @@
 #!usr/bin/env python3
 
-n_list = []
 divisor_list = []
 perfect_numbers = []
 
-n = 1 
-while n <= 100:
-    n_list.append(n)
-    n += 1
-
-for n in n_list:
+for n in range (1, 101):
     divisor = n - 1
     while divisor > 0:
         if n % divisor == 0:
