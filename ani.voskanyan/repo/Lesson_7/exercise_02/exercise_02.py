@@ -2,7 +2,7 @@
 
 args_list = []
 
-def arguments_input ():
+def arguments_input():
     while len(args_list) < 3:
         arg_input = float(input(f"Please enter a value N{len(args_list) + 1}: "))
         args_list.append(arg_input)
