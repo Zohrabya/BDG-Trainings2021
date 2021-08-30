@@ -1,5 +1,5 @@
-z = ("Enter a number")
-p = 5
-c = ("The squere of")
-print(z, p ,sep=":")
-print(c ,p ,"is" , "25" ".")
+#! /usr/bin/env python3
+
+number = int(input("Please enter a number"))
+print("Enter a number",number, sep = ":")
+print("The square of", number,"is", number ** 2, ".")
