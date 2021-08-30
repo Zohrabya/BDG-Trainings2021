@@ -1,6 +1,10 @@
 #!usr\bin\env python 3\
 
-number_input = int(input("Enter a number: "))
+try:
+    number_input = int(input("Enter a number: "))
+except ValueError:
+    print("You can input only integers. Try again")
+    number_input = int(input("Enter a number: "))
 
 
 def prime_number(n):
