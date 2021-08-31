@@ -1,7 +1,7 @@
 #!/usr/bin/evn python3
 
-first_num = int(input("Enter first integer:"))
-second_num = int(input("Enter second integer:"))
+first_num = int(input("Enter first integer: "))
+second_num = int(input("Enter second integer: "))
 if first_num > second_num:
     print(first_num, "is larger", sep=" ")
 elif first_num == second_num:
