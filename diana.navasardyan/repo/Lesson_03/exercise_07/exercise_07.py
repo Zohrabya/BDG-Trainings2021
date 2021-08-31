@@ -1,5 +1,5 @@
-#1/usr/bin/env python3py
+#!/usr/bin/env python3py
 
-program_1 = int(input("Enter your waight in kg: "))
+weight_kg = int(input("Enter your weight in kg: "))
 
-print("Waight in pound is: ", 2.2 * program_1)
+print("Weight in pound is: ", 2.2 * weight_kg)
