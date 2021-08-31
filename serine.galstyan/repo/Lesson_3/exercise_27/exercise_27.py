@@ -1,37 +1,20 @@
 #!/usr/bin/evn python3
 
-print("Decimal Octal Hexadecimal  Binary")
-integer = 1
-print(integer, str(oct(integer))[2], str(hex(integer))[2], str(bin(integer))[2], sep="         ")
-integer = 2
-print(integer, str(oct(integer))[2], str(hex(integer))[2], str(bin(integer))[2:4], sep="         ")
-integer = 3
-print(integer, str(oct(integer))[2], str(hex(integer))[2], str(bin(integer))[2:4], sep="         ")
-integer = 4
-print(integer, str(oct(integer))[2], str(hex(integer))[2], str(bin(integer))[2:5], sep="         ")
-integer = 5
-print(integer, str(oct(integer))[2], str(hex(integer))[2], str(bin(integer))[2:5], sep="         ")
-integer = 6
-print(integer, str(oct(integer))[2], str(hex(integer))[2], str(bin(integer))[2:5], sep="         ")
-integer = 7
-print(integer, str(oct(integer))[2], str(hex(integer))[2], str(bin(integer))[2:5], sep="         ")
-integer = 8
-print(integer, str(oct(integer))[2:5], str(hex(integer))[2], str(bin(integer))[2:6], sep="        ")
-integer = 9
-print(integer, str(oct(integer))[2:5], str(hex(integer))[2], str(bin(integer))[2:6], sep="        ")
-integer = 10
-print(integer, str(oct(integer))[2:5], str(hex(integer))[2].upper(), str(bin(integer))[2:6], sep="        ")
-integer = 11
-print(integer, str(oct(integer))[2:5], str(hex(integer))[2].upper(), str(bin(integer))[2:6], sep="        ")
-integer = 12
-print(integer, str(oct(integer))[2:5], str(hex(integer))[2].upper(), str(bin(integer))[2:6], sep="        ")
-integer = 13
-print(integer, str(oct(integer))[2:5], str(hex(integer))[2].upper(), str(bin(integer))[2:6], sep="        ")
-integer = 14
-print(integer, str(oct(integer))[2:5], str(hex(integer))[2].upper(), str(bin(integer))[2:6], sep="        ")
-integer = 15
-print(integer, str(oct(integer))[2:5], str(hex(integer))[2].upper(), str(bin(integer))[2:6], sep="        ")
-integer = 16
-print(integer, str(oct(integer))[2:5], str(hex(integer))[2:5], str(bin(integer))[2:7], sep="        ")
-integer = 17
-print(integer, str(oct(integer))[2:5], str(hex(integer))[2:5], str(bin(integer))[2:7], sep="        ")
+print("Decimal\t\tOctal\t\tHexadecimal\tBinary")
+print(1, str(oct(1))[2], str(hex(1))[2], str(bin(1))[2], sep="\t\t")
+print(2, str(oct(2))[2], str(hex(2))[2], str(bin(2))[2:4], sep="\t\t")
+print(3, str(oct(3))[2], str(hex(3))[2], str(bin(3))[2:4], sep="\t\t")
+print(4, str(oct(4))[2], str(hex(4))[2], str(bin(5))[2:5], sep="\t\t")
+print(5, str(oct(5))[2], str(hex(5))[2], str(bin(5))[2:5], sep="\t\t")
+print(6, str(oct(6))[2], str(hex(6))[2], str(bin(6))[2:5], sep="\t\t")
+print(7, str(oct(7))[2], str(hex(7))[2], str(bin(7))[2:5], sep="\t\t")
+print(8, str(oct(8))[2:5], str(hex(8))[2], str(bin(8))[2:6], sep="\t\t")
+print(9, str(oct(9))[2:5], str(hex(9))[2], str(bin(9))[2:6], sep="\t\t")
+print(10, str(oct(10))[2:5], str(hex(10))[2].capitalize(), str(bin(10))[2:6], sep="\t\t")
+print(11, str(oct(11))[2:5], str(hex(11))[2].capitalize(), str(bin(11))[2:6], sep="\t\t")
+print(12, str(oct(12))[2:5], str(hex(12))[2].capitalize(), str(bin(12))[2:6], sep="\t\t")
+print(13, str(oct(13))[2:5], str(hex(13))[2].capitalize(), str(bin(13))[2:6], sep="\t\t")
+print(14, str(oct(14))[2:5], str(hex(14))[2].capitalize(), str(bin(14))[2:6], sep="\t\t")
+print(15, str(oct(15))[2:5], str(hex(15))[2].capitalize(), str(bin(15))[2:6], sep="\t\t")
+print(16, str(oct(16))[2:5], str(hex(16))[2:5], str(bin(16))[2:7], sep="\t\t")
+print(17, str(oct(17))[2:5], str(hex(17))[2:5], str(bin(17))[2:7], sep="\t\t")
