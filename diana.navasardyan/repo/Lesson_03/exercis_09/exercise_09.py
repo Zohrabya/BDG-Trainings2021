@@ -1,8 +1,9 @@
-#1/usr/bin/env python3
+#!/usr/bin/env python3
 
-percent_1  = float(input("Percent tip: "))
-meal_price = float(input("Meal: "))
-tip = meal_price * percent_1 / 100
-print ("Your price for tip: ", tip)
-print ("Total amount: ", meal_price + tip)
+meal_price = float(input("Please enter the price of the meal: "))
+Percentage_tip= float(input("Please enter a percentage tip: "))
+
+meal_price_percentage_tip = meal_price * Percentage_tip / 100
+print ("Meal price after applying persent: ", meal_price_percentage_tip)
+print ("Total amount: ", meal_price + meal_price_percentage_tip)
 
