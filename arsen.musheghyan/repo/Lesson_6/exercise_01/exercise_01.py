@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+#verion2
 wide = int(input("Please, input wide of the box: "))
 high = int(input("Please, input high of the box: "))
 i = 1
