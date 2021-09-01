@@ -2,11 +2,9 @@
 
 list = []
 word = str
-while word != " ":
+while word != "":
     word = input("Enter the words(enter a blank to exit): ")
-    if word != " ":
+    if word not in list and word!="":
         list.append(word)
-        unique_words = sorted(set(list))
-for item in(unique_words):
-   print (item)
-
+for item in list:
+    print(item)
