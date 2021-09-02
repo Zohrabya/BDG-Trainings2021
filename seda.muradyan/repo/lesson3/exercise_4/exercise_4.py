@@ -1,9 +1,8 @@
-# Home work lesson 3/4
-valueA = 512
-valueB = 282
-valueC = 47
-valueD = 48
-valueE = 5
+value_A = 512
+value_B = 282
+value_C = 47
+value_D = 48
+value_E = 5
 
-output = (valueA - valueB)/(valueC*valueD + valueE)
+output=(value_A - value_B)/(value_C*value_D + value_E)
 print(str(output))
