@@ -2,6 +2,7 @@
 
 password = input("Enter a password: ")
 
+
 def good_password(p):
     p_list = list(p)
     if len(p) >= 8:
