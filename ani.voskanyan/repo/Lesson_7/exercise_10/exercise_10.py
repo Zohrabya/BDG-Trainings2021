@@ -17,5 +17,3 @@ def good_password(p):
         
 
 print(good_password(password))
-
-
