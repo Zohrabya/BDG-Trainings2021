@@ -1,10 +1,5 @@
-#home work Lesson 3 exe_11
-
 width = float(input("Enter your field width: "))
 lenght = float(input("Enter your field lenght: "))
-acresisequal = 43560
+Acre = "43560 feet squral"
 
-output = "The area of field from acres" + str(width * lenght/acresisequal)
-
-
-print(output)
+print("The area of field from acres" + str(width * lenght/Acre))
