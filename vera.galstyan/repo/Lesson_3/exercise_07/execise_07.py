@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-int(input("kilogram"))
+kg =  int(input("Please enter your weight in kg : "))
 
-a=(2.2)
-
-print(a)
+print("Your weight in pounds is equal to", kg * 2.2)
