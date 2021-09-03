@@ -1,21 +1,21 @@
-number1, number2, number3 = input("enter three numbers: ") .split()
+num_1, num_2, num_3 = input("enter three numbers: ").split()
 
-print("Sum is: ", int(number1) + int(number2) + int(number3))
-print("Average is: ", round((int(number1) + int(number2) + int(number3)) / 3))
-print("Product is: ", int(number1) * int(number2) * int(number3))
+print("Sum is: ", int(num_1 + num_2 + num_3))
+print("Average is: ", round(float(num_1) + int(num_2 + num_3)) / 3)
+print("Product is: ", int(num_1) *int(num_2) * int(num_3))
 
-if number1 < number2:
-    if  number1 < number3: 
-     print("Smallest is: ", number1)
-elif number2 < number3: 
-    print("Smallest is: ", number2)
+if num_1 < num_2:
+    if  num_1 < num_3: 
+     print("Smallest is: ", num_1)
+elif num_2 < num_3: 
+    print("Smallest is: ", num_2)
 else: 
-    print("Smallest is: ", number3)  
+    print("Smallest is: ", num_3)  
 
-if number1 > number2: 
-    if number1 > number3: 
-     print("Largest is: ", number1)
-elif number2 > number3:
-    print("Largest is: ", number2)
+if num_1 > num_2: 
+    if num_1 > num_3: 
+     print("Largest is: ", num_1)
+elif num_2 > num_3:
+    print("Largest is: ", num_2)
 else: 
-    print("Largest is: ", number3)
+    print("Largest is: ", num_3)
