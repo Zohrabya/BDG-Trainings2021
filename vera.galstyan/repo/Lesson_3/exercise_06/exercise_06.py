@@ -1,12 +1,6 @@
 #!/usr/bin/env python3
 
-x=int(input("Enter a number:"))
+number = int(input("Please enter a number: "))
 
-
-a=(2)
-b=(3)
-c=(4)
-d=(5)
-
-print(x ,"---",a,"---",b,"---",c,"---",d)
+print(f'{number}---{2 * number}---{3 * number}---{4 * number}---{5 * number}')
 
