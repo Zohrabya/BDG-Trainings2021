@@ -2,5 +2,5 @@
 
 height = int(input("Enter the Height of a triangle: "))
 
-for i in range(0, height):
-    print("*" * (i + 1))
+for i in range(1, height + 1):
+    print("*" * i)
