@@ -1,4 +1,4 @@
-#!usr/bin/env python3
+#!/usr/bin/env python3
 
 number = int(input("Enter a number (enter '0' to calculate the average): "))
 numbers_list = []
