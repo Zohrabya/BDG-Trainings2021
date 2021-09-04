@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
 password = input("Enter a password: ")
+if password == "":
+    raise ValueError("Empty input. Try again.")
 
 
 def good_password(p):
