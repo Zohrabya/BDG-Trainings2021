@@ -1,4 +1,4 @@
-#!usr/bin/env python3
+#!/usr/bin/env python3
 
 height = int(input("Enter the Height of a triangle: "))
 
