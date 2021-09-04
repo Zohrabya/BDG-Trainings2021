@@ -1,4 +1,4 @@
-#!usr/bin/evn python3
+#!/usr/bin/env python3
 
 print(1, oct(1), hex(1).upper(), bin(1), sep = "\t")
 print(2, oct(2), hex(2).upper(), bin(2), sep = "\t")
