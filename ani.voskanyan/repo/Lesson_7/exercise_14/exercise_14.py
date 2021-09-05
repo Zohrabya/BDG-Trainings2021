@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-with open("C:\\Users\\37494\\Desktop\\QA\\Automation\\BDG_Trainings\\BDG-Trainings2021\\ani.voskanyan\\repo\\Lesson_7\\exercise_14\\file_14.txt") as f:
+with open("file_14.txt") as f:
     content = f. readlines()
 
 new_list = []
