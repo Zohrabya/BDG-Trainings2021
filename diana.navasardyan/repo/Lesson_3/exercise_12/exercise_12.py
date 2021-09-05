@@ -1,7 +1,12 @@
-#! /usr/bin/env python3
-inp = float(input("Please enter the size of the bottle: "))
+#!/usr/bin/env python3
 
-if inp <= 1:
-    print("Your refund amount is $0.10")
+from typing import Container
+
+
+number_1 = float(input("Enter the number of containers holding: "))
+
+if number_1 <= 1:
+    print("Your deposit for containers is", round(number_1 * 0.10, 2), "$")
 else:
-    print("Your refund amount is $0.25")
+    print("Your deposit for containers is", round(number_1 * 0.25, 2), "$")
+
