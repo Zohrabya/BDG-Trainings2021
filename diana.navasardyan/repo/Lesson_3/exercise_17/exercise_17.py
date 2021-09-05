@@ -1,28 +1,28 @@
-inp_number1 = int(input("Enter a number: "))
-inp_number2 =  int(input("Enter a number: "))
-inp_number3 =  int(input("Enter a number: "))
+#!/usr/bin/env python3
 
-sum_numbers = inp_number1 + inp_number2 + inp_number3
+number_number = input("Enter a three integers: ")
+number1 = str(number_number[0])
+number2 = str(number_number[1])
+number3 = str(number_number[2])
+
+sum_numbers = int(number1)+ int(number2) + int(number3)
 
 averege_numbers = sum_numbers / 3
 
-product_numbers = inp_number1 * inp_number2 * inp_number3
+product_numbers = int(number1) * int(number2) * int(number3)
 #largest_number
-if inp_number2 < inp_number1 > inp_number3:
-    largest_number = inp_number1    
-elif inp_number1 < inp_number2 > inp_number3:
-    largest_number = inp_number2
-elif inp_number1 < inp_number3 > inp_number2:
-    largest_number = inp_number3
-
+if number2 < number1 > number3:
+    largest = number1    
+elif number1 < number2 > number3:
+    largest = number2
+else:
+    largest = number3
 #smallest_number
-if inp_number2 > inp_number1 < inp_number3:
-    smallest_number = inp_number1    
-elif inp_number1 > inp_number2 < inp_number3:
-    smallest_number = inp_number2
-elif inp_number1 > inp_number3 < inp_number2:
-    smallest_number = inp_number3
+if number2 > number1 < number3:
+    smallest = number1    
+elif number1 > number2 < number3:
+    smallest = number2
+else:
+    smallest = number3
 
-
-print(f"Input three deferent integers: {inp_number1} {inp_number2} {inp_number3} \nSum is {sum_numbers} \nAverage is {averege_numbers} \nProduct is {product_numbers} \nSmallest is {smallest_number} \nLargest is {largest_number}")
-
+print(f"Input three deferent integers: {number1} {number2} {number3} \nSum is {sum_numbers} \nAverage is {averege_numbers:.2f} \nProduct is {product_numbers} \nSmallest is {smallest} \nLargest is {largest}")
