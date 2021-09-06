@@ -6,5 +6,6 @@ count = 0
 while user_number != 0: 
     total += user_number
     count += 1
-    user_number  = float(input("please enter the number: "))
-print("Average is: {0:1.4f}".format(total / count))
+    user_number  = float(input("Please enter the number: "))
+average = total / count
+print("Average is:", round(average, 2))
