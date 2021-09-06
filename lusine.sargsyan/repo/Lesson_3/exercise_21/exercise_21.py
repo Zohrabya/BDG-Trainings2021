@@ -1,4 +1,4 @@
-#!/usr/bin/env Python3
+#!/usr/bin/env python3
 
 num = int(input("Please enter the number: "))
 if num % 2 == 0: 
