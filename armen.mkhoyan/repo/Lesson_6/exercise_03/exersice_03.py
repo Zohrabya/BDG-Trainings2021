@@ -8,6 +8,5 @@ triangle should be.
 
 high = int(input("Enter a High: "))
 
-for i in range(0,high+1,+1):
+for i in range(0,high+1):
     print("*" * i)
-
