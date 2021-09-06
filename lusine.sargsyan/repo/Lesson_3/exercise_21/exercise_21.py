@@ -1,9 +1,7 @@
-#! /usr/bin/env Python3
+#!/usr/bin/env Python3
 
-your_integer = int(input("please enter the number: "))
-
-if your_integer % 2 == 0: 
-    print(your_integer, "is even.")
+num = int(input("Please enter the number: "))
+if num % 2 == 0: 
+    print(num, "is even.")
 else: 
-    print(your_integer, "is odd.")
-        
+    print(num, "is odd.")
