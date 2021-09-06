@@ -4,8 +4,8 @@
 high the box should be. [Hint: print('*' * 10) prints ten asterisks.]
 """
 
-wide = int(input("Enter a Wide: "))
-high = int(input("Enter a High: "))
+width = int(input("Enter a Width: "))
+hight = int(input("Enter a Hight: "))
 
-for asterisks in range(0, high):
-    print("*" * wide)
+for asterisks in range(0, hight):
+    print("*" * width)
