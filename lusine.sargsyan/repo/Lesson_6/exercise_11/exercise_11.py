@@ -1,4 +1,4 @@
-#!usr/bin/env python3
+#!/usr/bin/env python3
 
 words_entered = list()
 user_word = input("Please enter the word: ")
