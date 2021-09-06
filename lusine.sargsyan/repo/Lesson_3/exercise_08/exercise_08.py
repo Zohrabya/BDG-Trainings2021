@@ -6,4 +6,4 @@ number_3 = int(input("Please enter number3: "))
 
 total = number_1 + number_2 + number_3
 average = total / 3
-print("Total:", total, "\nAverage:", average )
+print("Total:", total, "\nAverage:", round(average, 2))
