@@ -13,4 +13,4 @@ with open(output_file, "w") as f:
             del  line_list[line.find("#") :]
         f.write("".join(line_list))
         f.write("\n")
-    
+        
