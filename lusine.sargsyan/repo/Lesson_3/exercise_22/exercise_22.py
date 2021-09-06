@@ -1,9 +1,9 @@
-#! /usr/ bin/env python3
+#!/usr/bin/env python3
 
-user_integer_1 = int(input("Enter the first integer: "))
-user_integer_2 = int(input("Enter the second integer: "))
+number_1 = int(input("Enter the first integer: "))
+number_2 = int(input("Enter the second integer: "))
 
-if user_integer_1 % user_integer_2 == 0: 
-    print("The first integer is multiple of the second integer.")
+if number_1 % number_2 == 0: 
+    print(number_1, "is multiple of the", number_2)
 else: 
-    print("The first integer is NOT multiple of the second integer.")
+    print(number_1, "is NOT multiple of", number_2)
