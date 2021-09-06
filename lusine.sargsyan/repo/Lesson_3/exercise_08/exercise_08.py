@@ -1,4 +1,4 @@
-#!/usr/bin /env python3
+#!/usr/bin/env python3
 
 number_1 = int(input("Please enter number1: "))
 number_2 = int(input("Please enter number2: "))
