@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 
-file_input = input("Enter the name of a file: ")
+try:
+    file_input = input("Enter the name of a file: ")
+except FileNotFoundError:
+    print("No such file")
+
 output_file = input("Enter the name of a new file: ")
 
 with open(file_input) as f:
