@@ -1,4 +1,4 @@
-#! /usr/bin/env python3
+#!/usr/bin/env python3
 
 price = float(input("Please neter the price of the meal: "))
 tax = price * 20 / 100
