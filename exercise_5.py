@@ -1,5 +1,2 @@
-# Home work lesson 3/5
-num = int(input("Enter a number" + "\n"))
-output = "The square of " + str(num) + " is " + str(num * num)
-
-print(output)
+int_number = int(input("Enter a number" + "\n"))
+print("The square of", int_number, "is", int(int_number) ** 2, ".", sep= " ")
