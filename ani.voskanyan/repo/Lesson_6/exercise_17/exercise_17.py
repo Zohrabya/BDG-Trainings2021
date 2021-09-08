@@ -2,18 +2,11 @@
 
 text_input = input("Add a text to transform into Pig Latin: ").split(" ")
 consonants = ["b", "c", "d", "f","g", "h", "j", "k", "l", "m", "n", "p","q", "r", "s","t", "v", "x", "w", "y", "z"]
-upper_consonants, upper_vowels = [], []
 vowels = ["a", "e", "i", "o", "u"]
 punctuation_marks = [".", ",", "?", "!"]
 result_list = []
-
-for letter in consonants:
-    upper_consonant = letter.upper()
-    upper_consonants.append(upper_consonant)
-
-for letter in vowels:
-    upper_vowel = letter.upper()
-    upper_vowels.append(upper_vowel)
+upper_consonants = [letter.upper() for letter in consonants]
+upper_vowels = [letter.upper() for letter in vowels]
     
 print(text_input)
 
@@ -50,4 +43,4 @@ for word in text_input:
     else:
         result = "".join(transform_vowel(word))
 
-    print(result + last_char)
+    print(result + last_char, end=" ")
