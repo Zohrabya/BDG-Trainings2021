@@ -1,4 +1,4 @@
-#!usr/bin/env python3
+#!/usr/bin/env python3
 
 #a 
 print(19 * "*", "\n*" + 17 * " " + "*", "\n*" + 17 * " " + "*", "\n" + 19 * "*")
