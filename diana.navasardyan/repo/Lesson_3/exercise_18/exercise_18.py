@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 radius_of_the_circle = float(input("Enter the radius of circle: "))
 PI = 3.14159
 
