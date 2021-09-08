@@ -3,7 +3,7 @@
 n = int(input("Enter a positive integer: "))
 divisors_list = []
 
-divisor = n - 1
+divisor = int(n / 2)
 while divisor > 0:
     if n % divisor == 0:
         divisors_list.append(divisor)
