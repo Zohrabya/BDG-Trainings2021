@@ -3,7 +3,6 @@
 #a
 print("*","\n**","\n***","\n****")
 
-print("---------------")
 
 #b
 x = "*"
@@ -11,14 +10,10 @@ y = "\n**"
 z = "\n***"
 print(x,y,z,"\n****")
 
-print("---------------")
+
 
 #c
-a = "*"
-b = "\n**"
-c = "\n***"
-d = "\n****"
-print(a)
-print(b)
-print(c)
-print(d)
+print("*")
+print("\n**")
+print("\n***")
+print("\n****")
