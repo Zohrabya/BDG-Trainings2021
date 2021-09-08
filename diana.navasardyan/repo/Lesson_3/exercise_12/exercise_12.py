@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
 
-from typing import Container
-
-
 number_1 = float(input("Enter the number of containers holding: "))
 
 if number_1 <= 1:
