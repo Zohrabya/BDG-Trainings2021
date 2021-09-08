@@ -1,4 +1,4 @@
-#!/usr//bin/env python3
+#!/usr/bin/env python3
 
 unit = str(input("Enter the confortable for you mesuremnet unit (meter/feet): "))
 width = float(input("Enter the width of the room: " ))
