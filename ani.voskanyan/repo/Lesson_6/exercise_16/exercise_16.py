@@ -25,8 +25,6 @@ def transform_consonant(word):
   word.append('ay')
   return word
 
-result_list = []
-
 for word in text_input:
     word = list(word)
 
@@ -35,6 +33,4 @@ for word in text_input:
     else:
         result = transform_vowel(word)
     
-    result_list.append(''.join(result))
-
-print(" ".join(result_list))
+    print("".join(result), end=" ")
