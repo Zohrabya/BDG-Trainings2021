@@ -16,7 +16,7 @@ elif number_1 < number_4 > number_2 and number_3 < number_4 > number_5:
     largest = number_4
 else:
     largest = number_5
-print("The largest number is {}:".format(largest))
+print("The largest number is {}: ".format(largest))
 
 
 if number_3 > number_1 < number_2 and number_4 > number_1 < number_5:
@@ -29,5 +29,5 @@ elif number_1 > number_4 < number_2 and number_3 > number_4 < number_5:
     smallest = number_4
 else:
     smallest = number_5
-print("The smallest number is {}:".format(smallest))
+print("The smallest number is {}: ".format(smallest))
 
