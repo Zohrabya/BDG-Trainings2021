@@ -2,8 +2,4 @@
 
 x = int(input("Enter a number: "))
 
-a = str(2 * x)
-b = str(3 * x)
-c = str(4 * x)
-d = str(5 * x)
-print(x ,"---", a, "---", b, "---", c,"---", d)
+print(x ,"---", 2 * x, "---", 3 * x, "---", 4 * x,"---", 5 * x)
