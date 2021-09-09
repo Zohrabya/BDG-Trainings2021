@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 
-number = int(input("enter tree numbers"))
-int = int(input("Enter the number"))
-a=(5)
-b=(2)
-c=(3)
+first_number = int(input("Enter first number: "))
+second_number = int(input("Enter second number: "))
+third_number = int(input("Enter third number: "))
 
-print(a+b+c)
+total = first_number + second_number + third_number
+average = total / 3
+
+print("Total:", total, "\n Average:", round(average, 2))
 
 
