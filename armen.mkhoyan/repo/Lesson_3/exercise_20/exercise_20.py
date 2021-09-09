@@ -10,27 +10,29 @@ number_5 = int(input("Enter a fifth number: "))
 #inputed integers
 print("Entered five different numbers: ", number_1, number_2, number_3, number_4,number_5)
 
+#Can't find better way to compare.
+
 #smallest
-if number_1<=number_2 and number_1<=number_3 and number_1<=number_4 and number_1<=number_5:
+if number_1 <= number_2 and number_1 <= number_3 and number_1 <= number_4 and number_1 <= number_5:
     print("Smallest is ", number_1)
-elif number_2<=number_1 and number_2<=number_3 and number_2<=number_4 and number_2<=number_5:
+elif number_2 <= number_1 and number_2 <= number_3 and number_2 <= number_4 and number_2 <= number_5:
     print("Smallest is ", number_2)
-elif number_3<=number_1 and number_3<=number_2 and number_3<=number_4 and number_3<=number_5:
+elif number_3 <= number_1 and number_3 <= number_2 and number_3 <= number_4 and number_3 <= number_5:
     print("Smallest is ", number_3)
-elif number_4<=number_1 and number_4<=number_2 and number_4<=number_3 and number_4<=number_5:
+elif number_4 <= number_1 and number_4 <= number_2 and number_4 <= number_3 and number_4 <= number_5:
     print("Smallest is ", number_4)
-elif number_5<=number_1 and number_5<=number_2 and number_5<=number_3 and number_5<=number_4:
+elif number_5 <= number_1 and number_5 <= number_2 and number_5 <= number_3 and number_5 <= number_4:
     print("Smallest is ", number_5)
 
 
 #largest
-if number_1>=number_2 and number_1>=number_3 and number_1>=number_4 and number_1>=number_5:
+if number_1 >= number_2 and number_1 >= number_3 and number_1 >= number_4 and number_1 >= number_5:
     print("Largest is ", number_1)
-elif number_2>=number_1 and number_2>=number_3 and number_2>=number_4 and number_2>=number_5:
+elif number_2 >= number_1 and number_2 >= number_3 and number_2 >= number_4 and number_2 >= number_5:
     print("Largest is ", number_2)
-elif number_3>=number_1 and number_3>=number_2 and number_3>=number_4 and number_3>=number_5:
+elif number_3 >= number_1 and number_3 >= number_2 and number_3 >= number_4 and number_3 >= number_5:
     print("Largest is ", number_3)
-elif number_4>=number_1 and number_4>=number_2 and number_4>=number_3 and number_4>=number_5:
+elif number_4 >= number_1 and number_4 >= number_2 and number_4 >= number_3 and number_4 >= number_5:
     print("Largest is ", number_4)
-elif number_5>=number_1 and number_5>=number_2 and number_5>=number_3 and number_5>=number_4:
+elif number_5 >= number_1 and number_5>= number_2 and number_5 >= number_3 and number_5 >= number_4:
     print("Largest is ", number_5)
