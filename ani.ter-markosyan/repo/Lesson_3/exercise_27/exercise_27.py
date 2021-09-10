@@ -1,4 +1,4 @@
-#!usr/bin/evn python3
+#!usr/bin/env python3
 
 print(1, "\t", format(1, 'o'), "\t", format(1,"X"), "\t", format(1,"b"))
 print(2, "\t", format(2, 'o'), "\t", format(2,"X"), "\t", format(2,"b"))
