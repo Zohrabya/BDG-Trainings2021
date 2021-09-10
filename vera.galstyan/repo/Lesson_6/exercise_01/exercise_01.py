@@ -2,5 +2,4 @@
 
 set_box = 5
 for set_box in range(1,5):
-
-    print('*'*15) 
+ print('*'*15) 
