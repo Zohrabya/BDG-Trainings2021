@@ -1,4 +1,4 @@
-#! usr/bin/evn python3
+#! usr/bin/env python3
 
 rows = int(input("Enter the number of rows: "))
 columns  = int(input("Enter the number of columns: "))
