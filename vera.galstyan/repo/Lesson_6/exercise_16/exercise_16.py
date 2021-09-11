@@ -1,6 +1,6 @@
 #!usr\bin\env python 3
 
-word = input("Enter Pig Latin to translate: ")
+word = input("Enter Pig Latin to translate:")
 
 #if the 1st letter of a word is "aeiou", add "way" to the end of the word 
 if word[0] == "a" or "e" or "i" or "o" or "u":  
