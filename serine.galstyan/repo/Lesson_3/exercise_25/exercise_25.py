@@ -1,4 +1,4 @@
-#!/usr/bin/evn python3
+#!/usr/bin/env python3
 
 integer = input("Enter a number(four-digit): ")
 sum_of_digits = int(integer[0]) + int(integer[1]) + int(integer[2]) + int(integer[3])
