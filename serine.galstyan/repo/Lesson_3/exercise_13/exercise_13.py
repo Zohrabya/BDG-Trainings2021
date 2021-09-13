@@ -1,4 +1,4 @@
-#!/usr/bin/evn python3
+#!/usr/bin/env python3
 
 meal_cost = int(input("Enter the cost of the meal: "))
 tax_rate = 0.09
