@@ -1,4 +1,4 @@
-#!/usr/bin/evn python3
+#!/usr/bin/env python3
 
 first_number = int(input("Enter the first number: "))
 second_number = int(input("Enter the second number :"))
