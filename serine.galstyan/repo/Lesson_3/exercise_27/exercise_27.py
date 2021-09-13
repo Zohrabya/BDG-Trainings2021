@@ -1,4 +1,4 @@
-#!/usr/bin/evn python3
+#!/usr/bin/env python3
 
 print("Decimal\t\tOctal\t\tHexadecimal\tBinary")
 print(1, oct(1)[2], hex(1)[2], bin(1)[2], sep="\t\t")
