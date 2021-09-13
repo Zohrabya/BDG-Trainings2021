@@ -1,4 +1,4 @@
-#!/usr/bin/evn python3
+#!/usr/bin/env python3
 
 width = float(input("Enter the width(in feet): "))
 length = float(input("Enter the length(in feet): "))
