@@ -1,4 +1,4 @@
-#!/usr/bin/evn python3
+#!/usr/bin/env python3
 
 # a point
 print("*\n" + "*" * 2 + "\n" + "*" * 3 + "\n" + "*" * 4)
