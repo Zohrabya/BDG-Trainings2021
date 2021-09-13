@@ -1,25 +1,14 @@
-#!/usr/bin/evn python3
+#!/usr/bin/env python3
 
-print("integer\t\tsquare\t\tcube")
-integer = 0
-print(integer, integer ** 2, integer ** 3, sep="\t\t")
-integer = 1
-print(integer, integer ** 2, integer ** 3, sep="\t\t")
-integer = 2
-print(integer, integer ** 2, integer ** 3, sep="\t\t")
-integer = 3
-print(integer, integer ** 2, integer ** 3, sep="\t\t")
-integer = 4
-print(integer, integer ** 2, integer ** 3, sep="\t\t")
-integer = 5
-print(integer, integer ** 2, integer ** 3, sep="\t\t")
-integer = 6
-print(integer, integer ** 2, integer ** 3, sep="\t\t")
-integer = 7
-print(integer, integer ** 2, integer ** 3, sep="\t\t")
-integer = 8
-print(integer, integer ** 2, integer ** 3, sep="\t\t")
-integer = 9
-print(integer, integer ** 2, integer ** 3, sep="\t\t")
-integer = 10
-print(integer, integer ** 2, integer ** 3, sep="\t\t")
+print(f"""integer\t\tsquare\t\tcube"
+      0\t\t{0 ** 2}\t\t{0 ** 3}
+      1\t\t{1 ** 2}\t\t{1 ** 3}
+      2\t\t{2 ** 2}\t\t{2 ** 3}
+      3\t\t{3 ** 2}\t\t{3 ** 3}
+      4\t\t{4 ** 2}\t\t{4 ** 3}
+      5\t\t{5 ** 2}\t\t{5 ** 3}
+      6\t\t{6 ** 2}\t\t{6 ** 3}
+      7\t\t{7 ** 2}\t\t{7 ** 3}
+      8\t\t{8 ** 2}\t\t{8 ** 3}
+      9\t\t{9 ** 2}\t\t{9 ** 3}
+      10\t{10 ** 2}\t\t{10 ** 3}""")
