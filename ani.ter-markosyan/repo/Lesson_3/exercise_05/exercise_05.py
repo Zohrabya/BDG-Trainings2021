@@ -1,2 +1,4 @@
+#!/usr/bin/env python3
+
 number = int(input("Enter a number: "))
-print("The squre of",number,"is",number ** 2,end = ".")
+print(f"The squre of {number} is {number ** 2}.")
