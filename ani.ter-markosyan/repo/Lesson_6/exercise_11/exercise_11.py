@@ -1,10 +1,11 @@
-#!usr/bin/evn python3
+#!/usr/bin/env python3
 
-list = []
-word = str
+list_of_words = []
+word = input("Enter the words(enter a blank to exit): ")
+
 while word != "":
+    if word not in list_of_words:
+        list_of_words.append(word)
     word = input("Enter the words(enter a blank to exit): ")
-    if word not in list and word!="":
-        list.append(word)
-for item in list:
+for item in list_of_words:
     print(item)
