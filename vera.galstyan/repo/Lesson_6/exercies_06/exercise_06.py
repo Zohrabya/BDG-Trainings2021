@@ -7,4 +7,4 @@ for i in range(0, height):
     elif i == (height//2):
         print((height - i - 1) * " " + height * "*" + (height - 1 - i) * " ")
     else:    
-        print(" " * (height - i - 1) + "*" + ((2 * i) - 1) * " " + "*")
+        print(" " *(height - i - 1) + "*" + ((2 * i) - 1) * " " + "*")
