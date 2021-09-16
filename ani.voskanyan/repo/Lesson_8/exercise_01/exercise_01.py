@@ -2,40 +2,29 @@
 
 class BankAccount:
     
-    def __init__(self, account_number, name, balance):
-        self.account_number = account_number
+    def __init__(self, accountNumber, name, balance):
+        self.accountNumber = accountNumber
         self.name = name
         self.balance = balance
 
-    def deposit(self, amount):
+    def Deposit(self, amount):
         self.balance += amount
 
-    def withdrawal(self, amount):
+    def Withdrawal(self, amount):
         self.balance -= amount
+        if self.balance < 0:
+            print("There is no enough money for withdrawing {amount}")
+            self.display()
 
     def bankfees(self, BANK_FEE = 5):
         self.balance -= self.balance * BANK_FEE / 100
 
     def display(self):
-        print(self.account_number)
-        print(self.name)
-        print(self.balance)
+        print("Account number:", self.accountNumber)
+        print("Client name:", self.name)
+        print("Account balance:", self.balance)
 
-try:
-    account_number = int(input("Enter your account number: "))
-except ValueError:
-    print("Wrong input. Account number should have numeric type. Try again.")
-    account_number = int(input("Enter your account number: "))
-
-try:    
-    name = input("Enter your name: ")
-except:
-    print("Wrong input. Name should have string type. Try again.")
-
-balance = input("Enter your initial balance")
-
-if type(account_number) != int or type(name) != str:
-    raise ValueError("Wrong input type")
-
-my_account = BankAccount(account_number, name, int(balance))
-my_account.display()
+my_account = BankAccount(1234567890, "Ani", 0)
+my_account.Deposit(100)
+my_account.Withdrawal(50)
+my_account.Withdrawal(1000)
