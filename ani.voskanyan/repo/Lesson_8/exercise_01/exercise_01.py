@@ -11,12 +11,13 @@ class BankAccount:
         self.balance += amount
 
     def Withdrawal(self, amount):
-        self.balance -= amount
-        if self.balance < 0:
+        if amount > self.balance:
             print("There is no enough money for withdrawing {amount}")
             self.display()
+        else: 
+            self.balance -= amount
 
-    def bankfees(self, BANK_FEE = 5):
+    def bankFees(self, BANK_FEE = 5):
         self.balance -= self.balance * BANK_FEE / 100
 
     def display(self):
