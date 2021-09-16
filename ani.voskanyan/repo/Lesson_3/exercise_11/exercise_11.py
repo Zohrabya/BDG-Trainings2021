@@ -6,4 +6,4 @@ FEET_IN_ACRE = 43560
 field_square_in_feet = field_length * field_width
 field_square_in_acre = field_square_in_feet / FEET_IN_ACRE
 
-print(f'The square of the field is {field_square_in_acre} acres')
+print(f'The square of the field is {field_square_in_acre:.2f} acres')
