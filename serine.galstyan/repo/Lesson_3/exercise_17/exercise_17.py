@@ -1,31 +1,23 @@
-#!/usr/bin/evn python3
+#!/usr/bin/env python3
 
-print("Input three different integers:")
-first_num = int(input())
-second_num = int(input())
-third_num = int(input())
-print("Sum is", first_num + second_num + third_num, sep=" ")
-print("Average is", int((first_num + second_num + third_num) / 3), sep=" ")
-print("Product is", first_num * second_num * third_num, sep=" ")
-# the smallest part
-if first_num < second_num:
-    if first_num < third_num:
-        print("Smallest is", first_num, sep=" ")
-    else:
-        print("Smallest is", third_num, sep=" ")
-else:
-    if second_num < third_num:
-        print("Smallest is", second_num, sep=" ")
-    else:
-        print("Smallest is", third_num, sep=" ")
+entered_numbers = input("Input three different integers: ")
+lst = entered_numbers.split(" ")
+first_num = int(lst[0])
+second_num = int(lst[1])
+third_num = int(lst[2])
+print("Sum is", first_num + second_num + third_num)
+print("Average is", round((first_num + second_num + third_num) / 3, 2))
+print("Product is", first_num * second_num * third_num)
+smallest = first_num
+if second_num < smallest:
+    smallest = second_num
+if third_num < smallest:
+    smallest = third_num
+print("Smallest is", smallest)
 # the largest part
-if first_num > second_num:
-    if first_num > third_num:
-        print("Largest is", first_num, sep=" ")
-    else:
-        print("Largest is", third_num, sep=" ")
-else:
-    if second_num > third_num:
-        print("Largest is", second_num, sep=" ")
-    else:
-        print("Largest is", third_num, sep=" ")
+largest = first_num
+if second_num > largest:
+    largest = second_num
+if third_num > largest:
+    largest = third_num
+print("Largest is", largest)
