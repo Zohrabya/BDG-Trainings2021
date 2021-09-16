@@ -1,4 +1,4 @@
-#!usr\bin\env python 3\
+#!usr\bin\env python 3
 
 text_input = input("Please enter a text: ").capitalize()
 if text_input == "":
@@ -6,7 +6,7 @@ if text_input == "":
 text_list = list(text_input)
 
 
-def correct_text_input(t_list: list):
+def correct_text_input(t_list):
     for s in range(len(t_list) - 1):
         if t_list[s] in ["?", "!", "."]:
             n = 1
