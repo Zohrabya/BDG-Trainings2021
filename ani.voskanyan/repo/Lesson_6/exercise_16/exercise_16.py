@@ -12,11 +12,9 @@ def transform_vowel(word):
 
 
 def transform_consonant(word):
-    i = 0
-    while word[i] in consonants:
-        i += 1
-  
-    word = word[i :] + word[0 : i]   
+    while word[0] in consonants:
+        word = word[1 :] + word[0]  
+
     return word + 'ay'
 
 for word in text_input:
@@ -25,4 +23,4 @@ for word in text_input:
     else:
         result = transform_vowel(word)
     
-    print("".join(result), end=" ")
+    print('In PigLatin: "'+ ''.join(result) + '"', end=" ")
