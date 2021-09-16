@@ -17,8 +17,9 @@ class BankAccount:
         else: 
             self.balance -= amount
 
-    def bankFees(self, BANK_FEE = 5):
-        self.balance -= self.balance * BANK_FEE / 100
+    def bankFees(self):
+        BANK_FEE = 5
+        self.balance -= int(self.balance * BANK_FEE / 100)
 
     def display(self):
         print("Account number:", self.accountNumber)
@@ -27,5 +28,6 @@ class BankAccount:
 
 my_account = BankAccount(1234567890, "Ani", 0)
 my_account.Deposit(100)
+my_account.bankFees()
 my_account.Withdrawal(50)
 my_account.Withdrawal(1000)
