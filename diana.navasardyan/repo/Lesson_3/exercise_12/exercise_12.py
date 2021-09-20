@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 
-number_1 = float(input("Enter the number of containers holding: "))
+number_1 = float(input("Enter quantity of drink containers holding one liter and less: "))
+number_2 = float(input("Enter quantity of drink containers holding more than one liter: "))
 
-if number_1 <= 1:
-    print("Your deposit for containers is", round(number_1 * 0.10, 2), "$")
-else:
-   print("Your deposit for containers is", round(number_1 * 0.25, 2), "$")
-
+refundable_amount = round(number_1 * 0.10, 2) + round(number_2 * 0.25)
+    
+print("Your refundable amount:", refundable_amount, "$")
