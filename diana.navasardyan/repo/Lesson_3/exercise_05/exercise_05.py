@@ -2,4 +2,4 @@
 
 number = int(input("Please enter a number: "))
 print("Enter a number", number, sep = ":")
-print("The square of", number, "is", number ** 2, ".")
+print(f"The square of {number} is {number ** 2}.")
