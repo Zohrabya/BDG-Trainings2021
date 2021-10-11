@@ -40,7 +40,7 @@ try:
         print("Test case N2 passed")
     except AssertionError:
         print("Test case N2 failed")
-    #Test case N3: Test if there is working Linkedin link on the footer 
+    #Test case N3: Test if there is working LinkedIn link on the footer 
     browser.switch_to.window(first_window)
     linkedin_button = facebook_button = browser.find_element_by_link_text("LinkedIn")
     linkedin_button.click()
