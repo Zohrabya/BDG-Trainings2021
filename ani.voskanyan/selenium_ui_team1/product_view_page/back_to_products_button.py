@@ -1,4 +1,5 @@
 #The test case was written by Ani Voskanyan
+#!/usr/bin/env python3
 
 from selenium import webdriver
 import time
