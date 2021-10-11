@@ -22,6 +22,7 @@ try:
     twitter_button.click()
     twitter_window = browser.window_handles[1]
     browser.switch_to.window(twitter_window)
+    time.sleep(10)
     try:
         assert "twitter" in browser.title.lower() 
         print("Test case N1 passed")
@@ -33,6 +34,7 @@ try:
     facebook_button.click()
     facebook_window = browser.window_handles[2]
     browser.switch_to.window(facebook_window)
+    time.sleep(10)
     try:
         assert "facebook" in browser.title.lower() 
         print("Test case N2 passed")
@@ -44,6 +46,7 @@ try:
     linkedin_button.click()
     linkedin_window = browser.window_handles[3]
     browser.switch_to.window(linkedin_window)
+    time.sleep(10)
     try:
         assert "linkedin" in browser.title.lower() 
         print("Test case N3 passed")
