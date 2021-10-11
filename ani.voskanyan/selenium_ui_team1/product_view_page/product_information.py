@@ -44,19 +44,19 @@ try:
         back_button.click()
         time.sleep(2)
 
-    #Test case N1. Check if names are the same on both pages
+    #Test case N1. Test if names are the same on both pages
     try:
         assert inventory_names_text == product_names
         print("Test case N1 passed")
     except AssertionError:
         print("Test case N1 failed")
-    #Test case N2. Check if names are the same on both pages
+    #Test case N2. Test if names are the same on both pages
     try:
         assert inventory_photos_text == product_photos
         print("Test case N2 passed")
     except AssertionError:
         print("Test case N2 failed")
-    #Test case N3. Check if names are the same on both pages
+    #Test case N3. Test if names are the same on both pages
     try:
         assert inventory_prices_text == product_prices
         print("Test case N3 passed")
