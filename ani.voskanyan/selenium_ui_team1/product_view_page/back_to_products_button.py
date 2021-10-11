@@ -19,7 +19,7 @@ try:
     #go to the product view page
     browser.find_element_by_xpath('//div[@class = "inventory_item_name"]').click()
     time.sleep(2)
-    #Test case N1. Check if there is the "Back to products" button on the product view page
+    #Test case N1. Test if there is the "Back to products" button on the product view page
     back_button = browser.find_element_by_id("back-to-products")
     button_text = back_button.text
 
@@ -29,7 +29,7 @@ try:
     except AssertionError:
         print("Failed. Wrong name of the button")
     time.sleep(2)
-    #Test case N2. Check if the button "Back to products" works properly
+    #Test case N2. Test if the button "Back to products" works properly
     back_button.click()
     time.sleep(2)
     page_title = browser.find_element_by_class_name("title").text
