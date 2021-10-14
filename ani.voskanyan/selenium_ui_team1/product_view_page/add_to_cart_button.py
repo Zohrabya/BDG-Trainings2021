@@ -4,8 +4,6 @@
 from selenium import webdriver
 import time
 from selenium.common.exceptions import NoSuchElementException
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.action_chains import ActionChains
 
 browser = webdriver.Chrome()
 link = "https://www.saucedemo.com/"
