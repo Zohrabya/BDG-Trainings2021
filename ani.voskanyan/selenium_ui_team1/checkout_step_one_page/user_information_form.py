@@ -42,7 +42,7 @@ try:
         print("Test case N2 failed")
     #Test case 3. Test if there is an input field "Zip/Postal code"
     try:
-        first_name = browser.find_element_by_xpath("//input[@placeholder = 'Zip/Postal Code']")
+        zip_post_code = browser.find_element_by_xpath("//input[@placeholder = 'Zip/Postal Code']")
         print("Test case N3 passed")
     except NoSuchElementException:
         print("Test case N3 failed")
