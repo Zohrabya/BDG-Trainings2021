@@ -40,5 +40,3 @@ try:
 finally:
     time.sleep(3)
     browser.quit()
-
-
