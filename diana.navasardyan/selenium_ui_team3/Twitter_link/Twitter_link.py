@@ -19,6 +19,7 @@ time.sleep(3)
 chrome_driver.find_element_by_xpath("//a[contains(text(), 'Twitter')]").click()
 cur_url = chrome_driver.current_url
 expected_url = "https://twitter.com/saucelabs"
+
 if  cur_url == expected_url:
     print("Test case is passed.")
 else:
