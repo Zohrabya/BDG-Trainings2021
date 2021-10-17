@@ -48,8 +48,7 @@ try:
     products_checkout = browser.find_elements_by_class_name("inventory_item_name")
     for i in range(0, len(products_checkout)):
         products_checkout[i] = products_checkout[i].text
-    print(products_checkout)
-    print(products_in_the_cart)  
+         
     try:
         assert products_checkout == products_in_the_cart
         print("Test case N1 passed")
@@ -60,7 +59,7 @@ try:
     for i in range(0, len(item_prices)):
         item_prices[i] = float(item_prices[i].text[1:])
     items_total = browser.find_element_by_class_name("summary_subtotal_label").text[13:]
-    items_total = int(items_total)
+    items_total = float(items_total)
     
     try:
         assert sum(item_prices) == items_total
