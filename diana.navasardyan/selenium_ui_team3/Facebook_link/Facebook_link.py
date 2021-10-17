@@ -20,6 +20,6 @@ chrome_driver.find_element_by_xpath("//a[contains(text(), 'Facebook')]").click()
 cur_url = chrome_driver.current_url
 expected_url = "https://www.facebook.com/saucelabs"
 if  cur_url == expected_url:
-    print("Test case is passed.")
+     print("Test case is passed.")
 else:
     print("Test case is failed.")
