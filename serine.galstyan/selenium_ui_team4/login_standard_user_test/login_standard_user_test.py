@@ -12,7 +12,7 @@ chrome_user_options.add_argument("--start-maximized")
 chrome_user_options.add_argument("--headless")
 chrome_user_options.add_argument("--log-level=3")
 chrome_user_options.add_experimental_option("prefs", {"profile.default_content_settings_values.notifications": 2 })
-
+ 
 browser = webdriver.Chrome(chrome_options = chrome_user_options, executable_path=r"C:\Users\Hayk Poghosyan\Downloads\chromedriver.exe")
 browser.get("https://www.saucedemo.com/")
 
