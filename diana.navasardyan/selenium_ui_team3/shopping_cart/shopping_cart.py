@@ -26,10 +26,8 @@ lastname_form = browser.find_element_by_xpath('//*[@id="last-name"]')
 lastname_form.send_keys("Galstyan")
 zipcode_form = browser.find_element_by_xpath('//*[@id="postal-code"]')
 zipcode_form.send_keys("1111")
-time.sleep(5)
 browser.find_element_by_id("continue").click()
 browser.find_element_by_id("finish").click()
- 
 cur_url = browser.current_url
 expected_url = "https://www.saucedemo.com/checkout-complete.html"
 if  cur_url == expected_url:
