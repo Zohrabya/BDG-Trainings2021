@@ -64,4 +64,3 @@ def test_linkedin_link():
     assert "linkedin" in browser.title.lower() 
     logout()
     
-    
